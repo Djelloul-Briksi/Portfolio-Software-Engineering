@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T06:37:35.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="o0k6DOS_ZTtxjg_ZBkDa" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T16:53:55.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="MbwyZ3xm9f4XtBoxVYDa" version="24.6.0" type="github">
   <diagram name="Page-1" id="_ugNggZg4IDgyvCS1Ues">
     <mxGraphModel dx="1434" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
         <mxCell id="se2u93l58Sgd2gG3cPSr-49" value="CAB Backend&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;(python)&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="729" y="734" width="162" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="se2u93l58Sgd2gG3cPSr-52" value="DB Reader" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="se2u93l58Sgd2gG3cPSr-52" value="Data Reader" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="890" y="797.5" width="110" height="61.5" as="geometry" />
         </mxCell>
         <mxCell id="se2u93l58Sgd2gG3cPSr-53" value="Data Handler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -112,10 +112,10 @@
         <mxCell id="se2u93l58Sgd2gG3cPSr-54" value="&lt;span style=&quot;&quot;&gt;CAB Frontand&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(js, html, css)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="360" y="735" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="se2u93l58Sgd2gG3cPSr-56" value="&lt;div&gt;Tree Viewer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="se2u93l58Sgd2gG3cPSr-56" value="&lt;div&gt;Tree Browser&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="376" y="835.5" width="113" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="se2u93l58Sgd2gG3cPSr-57" value="Checker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="se2u93l58Sgd2gG3cPSr-57" value="Actions Artefacts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="511" y="835.5" width="107" height="59.5" as="geometry" />
         </mxCell>
         <mxCell id="se2u93l58Sgd2gG3cPSr-58" value="Route Viewer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
