@@ -1,0 +1,759 @@
+{
+  "type": "ExactTime",
+  "actionId": 719,
+  "actionDetailId": 1025,
+  "actionType": "CAStatic",
+  "mediaType": "CAStatic",
+  "children": [
+    {
+      "type": "Serial",
+      "actionId": 720,
+      "actionDetailId": 1026,
+      "actionType": "CAStatic",
+      "mediaType": "CAStatic",
+      "children": [
+        {
+          "type": "EnableByExtSource",
+          "actionId": 721,
+          "actionDetailId": 1027,
+          "actionType": "CAStatic",
+          "mediaType": "CAStatic",
+          "children": [
+            {
+              "type": "CancelByExtSource",
+              "actionId": 722,
+              "actionDetailId": 1028,
+              "actionType": "CAStatic",
+              "mediaType": "CAStatic",
+              "children": [
+                {
+                  "type": "Serial",
+                  "actionId": 723,
+                  "actionDetailId": 1029,
+                  "actionType": "CAStatic",
+                  "mediaType": "CAStatic",
+                  "children": [
+                    {
+                      "type": "BlockByExtSource",
+                      "actionId": 724,
+                      "actionDetailId": 1030,
+                      "actionType": "CAStatic",
+                      "mediaType": "CAStatic",
+                      "children": [
+                        {
+                          "type": null,
+                          "actionId": null,
+                          "actionDetailId": null,
+                          "actionType": null,
+                          "mediaType": null,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Parallel",
+                      "actionId": 725,
+                      "actionDetailId": 1031,
+                      "actionType": "CAStatic",
+                      "mediaType": "CAStatic",
+                      "children": [
+                        {
+                          "type": "MinTime",
+                          "actionId": 726,
+                          "actionDetailId": 1032,
+                          "actionType": "CAStatic",
+                          "mediaType": "CAStatic",
+                          "children": [
+                            {
+                              "type": null,
+                              "actionId": null,
+                              "actionDetailId": null,
+                              "actionType": null,
+                              "mediaType": null,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Serial",
+                          "actionId": 727,
+                          "actionDetailId": 1033,
+                          "actionType": "CAStatic",
+                          "mediaType": "CAStatic",
+                          "children": [
+                            {
+                              "type": "Parallel",
+                              "actionId": 728,
+                              "actionDetailId": 1034,
+                              "actionType": "CAStatic",
+                              "mediaType": "CAStatic",
+                              "children": [
+                                {
+                                  "type": "Serial",
+                                  "actionId": 729,
+                                  "actionDetailId": 1035,
+                                  "actionType": "CAStatic",
+                                  "mediaType": "CAStatic",
+                                  "children": [
+                                    {
+                                      "type": null,
+                                      "actionId": null,
+                                      "actionDetailId": null,
+                                      "actionType": null,
+                                      "mediaType": null,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "Serial",
+                                  "actionId": 730,
+                                  "actionDetailId": 1036,
+                                  "actionType": "CAStatic",
+                                  "mediaType": "CAStatic",
+                                  "children": [
+                                    {
+                                      "type": "Parallel",
+                                      "actionId": 731,
+                                      "actionDetailId": 1037,
+                                      "actionType": "CAStatic",
+                                      "mediaType": "CAStatic",
+                                      "children": [
+                                        {
+                                          "type": null,
+                                          "actionId": null,
+                                          "actionDetailId": null,
+                                          "actionType": null,
+                                          "mediaType": null,
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "Parallel",
+                                      "actionId": 732,
+                                      "actionDetailId": 1038,
+                                      "actionType": "CAStatic",
+                                      "mediaType": "CAStatic",
+                                      "children": [
+                                        {
+                                          "type": null,
+                                          "actionId": null,
+                                          "actionDetailId": null,
+                                          "actionType": null,
+                                          "mediaType": null,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Repeat",
+                              "actionId": 733,
+                              "actionDetailId": 1039,
+                              "actionType": "CAStatic",
+                              "mediaType": "CAStatic",
+                              "children": [
+                                {
+                                  "type": "Parallel",
+                                  "actionId": 734,
+                                  "actionDetailId": 1040,
+                                  "actionType": "CAStatic",
+                                  "mediaType": "CAStatic",
+                                  "children": [
+                                    {
+                                      "type": "EnableByExtSource",
+                                      "actionId": 735,
+                                      "actionDetailId": 1041,
+                                      "actionType": "CAStatic",
+                                      "mediaType": "CAStatic",
+                                      "children": [
+                                        {
+                                          "type": "Parallel",
+                                          "actionId": 736,
+                                          "actionDetailId": 1042,
+                                          "actionType": "CAStatic",
+                                          "mediaType": "CAStatic",
+                                          "children": [
+                                            {
+                                              "type": "Serial",
+                                              "actionId": 737,
+                                              "actionDetailId": 1043,
+                                              "actionType": "CAStatic",
+                                              "mediaType": "CAStatic",
+                                              "children": [
+                                                {
+                                                  "type": "Serial",
+                                                  "actionId": 738,
+                                                  "actionDetailId": 1044,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "Announcement",
+                                                      "actionId": 739,
+                                                      "actionDetailId": 1045,
+                                                      "actionType": "Announcement",
+                                                      "mediaType": "ANS_INNEN_1",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "type": "Parallel",
+                                                  "actionId": 740,
+                                                  "actionDetailId": 1046,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "EnableByExtSource",
+                                                      "actionId": 741,
+                                                      "actionDetailId": 1047,
+                                                      "actionType": "CAStatic",
+                                                      "mediaType": "CAStatic",
+                                                      "children": [
+                                                        {
+                                                          "type": "Parallel",
+                                                          "actionId": 742,
+                                                          "actionDetailId": 1048,
+                                                          "actionType": "CAStatic",
+                                                          "mediaType": "CAStatic",
+                                                          "children": [
+                                                            {
+                                                              "type": "Announcement",
+                                                              "actionId": 743,
+                                                              "actionDetailId": 1049,
+                                                              "actionType": "Announcement",
+                                                              "mediaType": "ANS_INNEN_4",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "type": "EnableByExtSource",
+                                                              "actionId": 744,
+                                                              "actionDetailId": 1050,
+                                                              "actionType": "CAStatic",
+                                                              "mediaType": "CAStatic",
+                                                              "children": [
+                                                                {
+                                                                  "type": null,
+                                                                  "actionId": null,
+                                                                  "actionDetailId": null,
+                                                                  "actionType": null,
+                                                                  "mediaType": null,
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "type": "EnableByExtSource",
+                                                  "actionId": 745,
+                                                  "actionDetailId": 1051,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "Announcement",
+                                                      "actionId": 746,
+                                                      "actionDetailId": 1052,
+                                                      "actionType": "Announcement",
+                                                      "mediaType": "ANS_SDO",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "Serial",
+                                      "actionId": 747,
+                                      "actionDetailId": 1053,
+                                      "actionType": "CAStatic",
+                                      "mediaType": "CAStatic",
+                                      "children": [
+                                        {
+                                          "type": "Parallel",
+                                          "actionId": 748,
+                                          "actionDetailId": 1054,
+                                          "actionType": "CAStatic",
+                                          "mediaType": "CAStatic",
+                                          "children": [
+                                            {
+                                              "type": "MinTime",
+                                              "actionId": 749,
+                                              "actionDetailId": 1055,
+                                              "actionType": "CAStatic",
+                                              "mediaType": "CAStatic",
+                                              "children": [
+                                                {
+                                                  "type": "Parallel",
+                                                  "actionId": 750,
+                                                  "actionDetailId": 1056,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "Screen",
+                                                      "actionId": 751,
+                                                      "actionDetailId": 1057,
+                                                      "actionType": "Screen",
+                                                      "mediaType": "SCR_LINE",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "Parallel",
+                                          "actionId": 753,
+                                          "actionDetailId": 1059,
+                                          "actionType": "CAStatic",
+                                          "mediaType": "CAStatic",
+                                          "children": [
+                                            {
+                                              "type": "EnableByExtSource",
+                                              "actionId": 754,
+                                              "actionDetailId": 1060,
+                                              "actionType": "CAStatic",
+                                              "mediaType": "CAStatic",
+                                              "children": [
+                                                {
+                                                  "type": "MinTime",
+                                                  "actionId": 755,
+                                                  "actionDetailId": 1061,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "Parallel",
+                                                      "actionId": 756,
+                                                      "actionDetailId": 1062,
+                                                      "actionType": "CAStatic",
+                                                      "mediaType": "CAStatic",
+                                                      "children": [
+                                                        {
+                                                          "type": "Screen",
+                                                          "actionId": 757,
+                                                          "actionDetailId": 1063,
+                                                          "actionType": "Screen",
+                                                          "mediaType": "SCR_LINE",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "EnableByExtSource",
+                                              "actionId": 759,
+                                              "actionDetailId": 1065,
+                                              "actionType": "CAStatic",
+                                              "mediaType": "CAStatic",
+                                              "children": [
+                                                {
+                                                  "type": "EnableByExtSource",
+                                                  "actionId": 760,
+                                                  "actionDetailId": 1066,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "Serial",
+                                                      "actionId": 761,
+                                                      "actionDetailId": 1067,
+                                                      "actionType": "CAStatic",
+                                                      "mediaType": "CAStatic",
+                                                      "children": [
+                                                        {
+                                                          "type": "Announcement",
+                                                          "actionId": 762,
+                                                          "actionDetailId": 1068,
+                                                          "actionType": "Announcement",
+                                                          "mediaType": "ANS_INNEN_3",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "Parallel",
+                                          "actionId": 763,
+                                          "actionDetailId": 1069,
+                                          "actionType": "CAStatic",
+                                          "mediaType": "CAStatic",
+                                          "children": [
+                                            {
+                                              "type": "EnableByExtSource",
+                                              "actionId": 764,
+                                              "actionDetailId": 1070,
+                                              "actionType": "CAStatic",
+                                              "mediaType": "CAStatic",
+                                              "children": [
+                                                {
+                                                  "type": "MinTime",
+                                                  "actionId": 765,
+                                                  "actionDetailId": 1071,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "Parallel",
+                                                      "actionId": 766,
+                                                      "actionDetailId": 1072,
+                                                      "actionType": "CAStatic",
+                                                      "mediaType": "CAStatic",
+                                                      "children": [
+                                                        {
+                                                          "type": "Screen",
+                                                          "actionId": 767,
+                                                          "actionDetailId": 1073,
+                                                          "actionType": "Screen",
+                                                          "mediaType": "SCR_LINE",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "EnableByExtSource",
+                                          "actionId": 769,
+                                          "actionDetailId": 1075,
+                                          "actionType": "CAStatic",
+                                          "mediaType": "CAStatic",
+                                          "children": [
+                                            {
+                                              "type": "Serial",
+                                              "actionId": 770,
+                                              "actionDetailId": 1076,
+                                              "actionType": "CAStatic",
+                                              "mediaType": "CAStatic",
+                                              "children": [
+                                                {
+                                                  "type": "EnableByExtSource",
+                                                  "actionId": 771,
+                                                  "actionDetailId": 1077,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "ExactTime",
+                                                      "actionId": 772,
+                                                      "actionDetailId": 1078,
+                                                      "actionType": "CAStatic",
+                                                      "mediaType": "CAStatic",
+                                                      "children": [
+                                                        {
+                                                          "type": "Parallel",
+                                                          "actionId": 773,
+                                                          "actionDetailId": 1079,
+                                                          "actionType": "CAStatic",
+                                                          "mediaType": "CAStatic",
+                                                          "children": [
+                                                            {
+                                                              "type": "Screen",
+                                                              "actionId": 774,
+                                                              "actionDetailId": 1080,
+                                                              "actionType": "Screen",
+                                                              "mediaType": "SCR_LINE",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "type": "Announcement",
+                                                              "actionId": 777,
+                                                              "actionDetailId": 1083,
+                                                              "actionType": "Announcement",
+                                                              "mediaType": "ANS_INNEN_1",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "type": "EnableByExtSource",
+                                                  "actionId": 778,
+                                                  "actionDetailId": 1084,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "ExactTime",
+                                                      "actionId": 779,
+                                                      "actionDetailId": 1085,
+                                                      "actionType": "CAStatic",
+                                                      "mediaType": "CAStatic",
+                                                      "children": [
+                                                        {
+                                                          "type": "Parallel",
+                                                          "actionId": 780,
+                                                          "actionDetailId": 1086,
+                                                          "actionType": "CAStatic",
+                                                          "mediaType": "CAStatic",
+                                                          "children": [
+                                                            {
+                                                              "type": "Screen",
+                                                              "actionId": 781,
+                                                              "actionDetailId": 1087,
+                                                              "actionType": "Screen",
+                                                              "mediaType": "SCR_LINE",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "type": "Announcement",
+                                                              "actionId": 784,
+                                                              "actionDetailId": 1090,
+                                                              "actionType": "Announcement",
+                                                              "mediaType": "ANS_INNEN_2",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "type": "EnableByExtSource",
+                                                  "actionId": 785,
+                                                  "actionDetailId": 1091,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "ExactTime",
+                                                      "actionId": 786,
+                                                      "actionDetailId": 1092,
+                                                      "actionType": "CAStatic",
+                                                      "mediaType": "CAStatic",
+                                                      "children": [
+                                                        {
+                                                          "type": "Parallel",
+                                                          "actionId": 787,
+                                                          "actionDetailId": 1093,
+                                                          "actionType": "CAStatic",
+                                                          "mediaType": "CAStatic",
+                                                          "children": [
+                                                            {
+                                                              "type": "Screen",
+                                                              "actionId": 788,
+                                                              "actionDetailId": 1094,
+                                                              "actionType": "Screen",
+                                                              "mediaType": "SCR_LINE",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "type": "Announcement",
+                                                              "actionId": 791,
+                                                              "actionDetailId": 1097,
+                                                              "actionType": "Announcement",
+                                                              "mediaType": "ANS_INNEN_3",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "type": "EnableByExtSource",
+                                                  "actionId": 792,
+                                                  "actionDetailId": 1098,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "ExactTime",
+                                                      "actionId": 793,
+                                                      "actionDetailId": 1099,
+                                                      "actionType": "CAStatic",
+                                                      "mediaType": "CAStatic",
+                                                      "children": [
+                                                        {
+                                                          "type": "Parallel",
+                                                          "actionId": 794,
+                                                          "actionDetailId": 1100,
+                                                          "actionType": "CAStatic",
+                                                          "mediaType": "CAStatic",
+                                                          "children": [
+                                                            {
+                                                              "type": "Screen",
+                                                              "actionId": 795,
+                                                              "actionDetailId": 1101,
+                                                              "actionType": "Screen",
+                                                              "mediaType": "SCR_LINE",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "type": "Announcement",
+                                                              "actionId": 798,
+                                                              "actionDetailId": 1104,
+                                                              "actionType": "Announcement",
+                                                              "mediaType": "ANS_INNEN_4",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "EnableByExtSource",
+                                          "actionId": 799,
+                                          "actionDetailId": 1105,
+                                          "actionType": "CAStatic",
+                                          "mediaType": "CAStatic",
+                                          "children": [
+                                            {
+                                              "type": "Serial",
+                                              "actionId": 800,
+                                              "actionDetailId": 1106,
+                                              "actionType": "CAStatic",
+                                              "mediaType": "CAStatic",
+                                              "children": [
+                                                {
+                                                  "type": "MinTime",
+                                                  "actionId": 801,
+                                                  "actionDetailId": 1107,
+                                                  "actionType": "CAStatic",
+                                                  "mediaType": "CAStatic",
+                                                  "children": [
+                                                    {
+                                                      "type": "Parallel",
+                                                      "actionId": 802,
+                                                      "actionDetailId": 1108,
+                                                      "actionType": "CAStatic",
+                                                      "mediaType": "CAStatic",
+                                                      "children": [
+                                                        {
+                                                          "type": "Screen",
+                                                          "actionId": 803,
+                                                          "actionDetailId": 1109,
+                                                          "actionType": "Screen",
+                                                          "mediaType": "SCR_SDO",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "type": "Screen",
+                                                  "actionId": 806,
+                                                  "actionDetailId": -1,
+                                                  "actionType": "Screen",
+                                                  "mediaType": "SCR_SDO",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "EnableByExtSource",
+          "actionId": 809,
+          "actionDetailId": 1112,
+          "actionType": "CAStatic",
+          "mediaType": "CAStatic",
+          "children": [
+            {
+              "type": "Repeat",
+              "actionId": 810,
+              "actionDetailId": 1113,
+              "actionType": "CAStatic",
+              "mediaType": "CAStatic",
+              "children": [
+                {
+                  "type": "Parallel",
+                  "actionId": 811,
+                  "actionDetailId": 1114,
+                  "actionType": "CAStatic",
+                  "mediaType": "CAStatic",
+                  "children": [
+                    {
+                      "type": "MinTime",
+                      "actionId": 812,
+                      "actionDetailId": 1115,
+                      "actionType": "CAStatic",
+                      "mediaType": "CAStatic",
+                      "children": [
+                        {
+                          "type": "Parallel",
+                          "actionId": 813,
+                          "actionDetailId": 1116,
+                          "actionType": "CAStatic",
+                          "mediaType": "CAStatic",
+                          "children": [
+                            {
+                              "type": "Screen",
+                              "actionId": 814,
+                              "actionDetailId": 1117,
+                              "actionType": "Screen",
+                              "mediaType": "SCR_LINE",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
