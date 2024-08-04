@@ -1,3 +1,5 @@
 __pycache__/
 database.db-shm
+database.db-wal719.json
+database.db-shm
 database.db-wal

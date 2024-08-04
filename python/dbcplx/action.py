@@ -24,6 +24,7 @@ class Action():
         self.typ = act_typ   # this type is overwritten for complex action (e.g. 'Serial' instead of 'CAStatic')
 
         self.children = []
+        self.attributes = []
         self.tree = dict()
 
     def addChild(self, action):
@@ -40,8 +41,17 @@ class Action():
         self.tree['actionDetailId'] = self.act_det_id
         self.tree['actionType'] = self.act_typ
         self.tree['mediaType'] = self.med_typ
-        self.tree['children'] = []
 
+        for attr in self.attributes:
+            for key, value in attr.items():
+                if key in self.tree:
+                    # append to existing attribute
+                    self.tree[key] = str("{0}, {1}").format(self.tree[key], value)
+                else:
+                    # create new attribute
+                    self.tree[key] = value
+
+        self.tree['children'] = []
         for action in self.children:
             action.buildTree()
             self.tree['children'].append(action.tree)
@@ -78,10 +88,35 @@ class DbAction():
         for row in cursor:
             print("getComplexAction: row={0}".format(row))
 
-            action.typ = row[1]  # overwrite the action type (write e.g. 'Serial' instead of 'CAStatic')
+            # overwrite the action type (write e.g. 'Serial' instead of 'CAStatic')
+            action.typ = row[1]
+
+            # get rule attributes
+            self.getCAAttributes(row[2], action)
+
+            # get complex action attributes
+            self.getCAAttributes(row[3], action)
+
             child_action = Action(row[4], action.act_list_id, row[5], row[6], row[7])
             self.getAction(child_action)
             action.addChild(child_action)
+
+    def getCAAttributes(self, attrListId, action: Action):
+        '''
+        Get the list of attributes of the given complex action 
+        attrListId: attributes list id
+        action: complex action
+        '''
+        if attrListId is not None:
+            cursor = self.db_conn.execute(str(db_queries.QUERY_CA_ATTRIBUTES).format(attrListId))
+            for row in cursor:
+                print("getCAAttributes: row={0}".format(row))
+                attr = dict()
+                if row[1] == 'Integer':
+                    attr[row[0]] = row[2]
+                elif row[1] == 'Text':
+                    attr[row[0]] = row[3]
+                action.attributes.append(attr)
 
 def getActionTree(root_action : Action, db_conn):
     '''

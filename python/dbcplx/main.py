@@ -30,7 +30,7 @@ def main():
     my_database.close()
 
     # dump the tree as json
-    with open('cplxaction.json', 'w') as fp:
+    with open("{0}.json".format(ActId), 'w') as fp:
             json.dump(action_tree, fp, indent=2)
 
 if __name__ == "__main__":

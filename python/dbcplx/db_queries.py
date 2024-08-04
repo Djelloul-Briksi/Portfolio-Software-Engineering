@@ -22,3 +22,18 @@ LEFT JOIN mediatype mt ON mt.mediatypeId = child_a.mediatypeid
 LEFT JOIN actiontype at ON child_a.actiontypeid = at.actiontypeid 
 WHERE parent_a.actionid = {0} 
 ORDER BY cacl.orderindex;"""
+
+QUERY_CA_ATTRIBUTES = """SELECT 
+aty.TypeName as Attribute, adt.TypeName as Type, ai.attribute as Integer, NULL as Text 
+from Attribute a 
+INNER JOIN attributedatatype adt ON ( a.attributedatatypeId = adt.attributedatatypeId and adt.typeName != 'Text') 
+INNER JOIN attributeint ai ON (ai.attributeintId = a.attributedetailId) 
+INNER JOIN attributetype aty ON (aty.attributeTypeId = ai.attributetypeId) 
+where AttributeListId= {0} 
+UNION 
+SELECT aty.TypeName as Attribute, adt.TypeName as Type, NULL as Interger, at.attribute as Text 
+from Attribute a 
+INNER JOIN attributedatatype adt ON ( a.attributedatatypeId = adt.attributedatatypeId and adt.typeName == 'Text') 
+INNER JOIN attributetext at ON (at.attributetextId = a.attributedetailId) 
+INNER JOIN attributetype aty ON ( aty.attributeTypeId = at.attributetypeId) 
+WHERE AttributeListId= {0};"""
